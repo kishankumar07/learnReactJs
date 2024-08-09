@@ -1,20 +1,12 @@
-import React,{Component} from 'react';
-import './App.css';
+import React from 'react';
+import Button from './Button'
 
-class App extends Component {
-
-state = {
-  myString:'Hello Machu',
-  myStringOne:"Debug",
-};
-
-  render(){
-    return(
-      <div className='App'>
-          <h1>{this.state.myString}</h1>
-      </div>
-    )
-  }
+function App(){
+  return (
+    <div>
+      <Button/>
+    </div>
+  )
 }
 
 export default App;
