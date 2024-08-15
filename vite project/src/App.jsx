@@ -1,9 +1,9 @@
 import FunctionalComponent from "./components/functional-component"
 import './App.css'
 import ClassBasedComponent from "./components/class-components";
+
+
 function App() {
-
-
 
 let dummyProductData = ['Product11','Product22','Product3'];
 
